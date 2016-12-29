@@ -1,12 +1,13 @@
-<meta http-equiv="refresh" content="4">
+<meta http-equiv="refresh" content="20">
 
-<h1>Tweets by Current Laker Players</h1>
+<h1>Tweets from Current Laker Players</h1>
 
 <br>
 
 <% @player_tweets.each do |tweet| %>
 
   <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
   <br>
   <br>
 
