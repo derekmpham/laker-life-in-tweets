@@ -1,1 +1,1 @@
-Are you a Laker fan? See what current players and fans are tweeting #lakers #lakernation #lakeshow
+# Are you a Laker fan? See what current players and fans are tweeting #lakers #lakernation #lakeshow
