@@ -21,7 +21,8 @@
 </head>
 <body>
 
-  <div class="jumbotron" style="top:0;text-align:center;"> 
+  <div class="jumbotron" style="top:0;text-align:center;background-image:url('http://orig00.deviantart.net/8f08/f/2013/027/c/6/kobe_bryant_wallpaper_by_angelmaker666-d5sxec8.jpg');background-size:cover;"> 
+    <br>
     <br>
     <h1>Laker Life in Tweets</h1>
     <br>
@@ -29,18 +30,18 @@
   </div>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-header navbar-inverse">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <div class="navbar-header navbar-inverse" style="background-color:#4B0082;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onmouseover="this.style.background='#663399'" onmouseout="this.style.background='#4B0082'">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div id="navbar" class="collapse navbar-collapse navbar-fixed-top">
+    <div id="navbar" class="collapse navbar-collapse navbar-fixed-top" style="background-color:#4B0082;">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Players</a></li>
-        <li><a href="/fans">Fans</a></li>
+        <li onmouseover="this.style.background='#663399'" onmouseout="this.style.background='#4B0082'" class="player-menu"><a href="/">Players</a></li>
+        <li onmouseover="this.style.background='#663399'" onmouseout="this.style.background='#4B0082'" class="fan-menu"><a href="/fans">Fans</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </nav>
