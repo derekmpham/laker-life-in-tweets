@@ -3,13 +3,34 @@
 <h1>Tweets from Laker Fans</h1>
 
 <br>
+<br>
 
-<%= "#{@lakers}" %>
-<br>
-<br>
-<%= "#{@lakernation}" %>
-<br>
-<br>
-<%= "#{@lakeshow}" %>
+<% @lakers.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
+<% @lakernation.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
+<% @lakeshow.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
 <br>
 <br>
