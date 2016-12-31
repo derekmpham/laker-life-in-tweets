@@ -1,15 +1,42 @@
-<meta http-equiv="refresh" content="20">
+<meta http-equiv="refresh" content="40">
 
 <h1>Tweets from Laker Fans</h1>
 
 <br>
+<br>
 
-<%= "#{@lakers}" %>
-<br>
-<br>
-<%= "#{@lakernation}" %>
-<br>
-<br>
-<%= "#{@lakeshow}" %>
+<style>
+.fan-menu {
+  background: purple;
+}
+</style>
+
+<% @lakers.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
+<% @lakernation.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
+<% @lakeshow.each do |tweet| %>
+
+  <%= "#{tweet.user.screen_name}: #{tweet.text}" %>
+  <br>
+  <br>
+  <br>
+
+<% end %>
+
 <br>
 <br>
