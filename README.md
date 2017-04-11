@@ -1,3 +1,10 @@
-## Are you a Laker fan? See what current players and fans are tweeting #lakers #lakernation #lakeshow
+# Laker Life in Tweets
 
-# https://lakerlifeintweets.herokuapp.com
+Website for viewing tweets from current Laker players and fans. Tech stack: Twitter API, Sinatra, Ruby
+
+![alt tag](https://github.com/derekmpham/laker-life-in-tweets/blob/master/players.png)
+
+![alt tag](https://github.com/derekmpham/laker-life-in-tweets/blob/master/fans.png)
+
+
+## https://lakerlifeintweets.herokuapp.com
